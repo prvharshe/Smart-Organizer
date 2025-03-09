@@ -1,4 +1,6 @@
-Am small MacOS utility app for organizing all the files in the downloads folder, because that's where the actual mess is.
+This is one of the series of vibe coding projects I have been working on with actual usecase and utility with the help of Cursor,ChatGPT,Claude:
+
+This is a small MacOS utility app for organizing all the files in the downloads folder, because that's where the actual mess is.
 
 This lives on the Menu bar
 
