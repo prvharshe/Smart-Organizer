@@ -2,7 +2,8 @@ Am small MacOS utility app for organizing all the files in the downloads folder,
 
 This lives on the Menu bar
 
-![image](https://github.com/user-attachments/assets/19e940fe-841a-495c-8a6f-1c58a5ea924b)
+![Screenshot 2025-03-09 at 12 20 07 PM](https://github.com/user-attachments/assets/6cfdc7bf-6c0c-4188-b403-3ff12fcfa033)
+
 
 
 Fixed issues and smart organizer is working on Downloads folder, **condition**: *only if all the files are outside in the downloads folder and not already organized.*
