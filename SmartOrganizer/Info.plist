@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSUserSelectedFileUsageDescription</key>
+	<string>The app needs to access files for organizing them.</string>
+	<key>NSUserSelectedFilesUsageDescription</key>
+	<string>The app needs access to organize your files.
+</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>The app needs to access your Downloads folder.</string>
+</dict>
+</plist>

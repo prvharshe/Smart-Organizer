@@ -1,17 +1,20 @@
-//
-//  SmartOrganizerApp.swift
-//  SmartOrganizer
-//
-//  Created by Pranav Harshe on 05/03/25.
-//
-
 import SwiftUI
 
 @main
-struct SmartOrganizerApp: App {
+struct FileOrganizerApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        Settings {
+            EmptyView()
         }
+    }
+}
+
+class AppDelegate: NSObject, NSApplicationDelegate {
+    var menuBarController: MenuBarController?
+    
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        menuBarController = MenuBarController()
     }
 }

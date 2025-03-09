@@ -10,9 +10,22 @@
 		0D39A9A22D7898CE00D8724C /* SmartOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0D39A9B92D79953600D8724C /* Exceptions for "SmartOrganizer" folder in "SmartOrganizer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0D39A9A12D7898CE00D8724C /* SmartOrganizer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0D39A9A42D7898CE00D8724C /* SmartOrganizer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0D39A9B92D79953600D8724C /* Exceptions for "SmartOrganizer" folder in "SmartOrganizer" target */,
+			);
 			path = SmartOrganizer;
 			sourceTree = "<group>";
 		};
@@ -257,6 +270,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartOrganizer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -284,6 +298,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartOrganizer/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
